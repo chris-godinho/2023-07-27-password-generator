@@ -46,14 +46,12 @@ function generatePassword() {
     if (confirm("Would you like special characters in your password?") === true) {
       characterPool = characterPool.concat(special);
     }
-    alert(characterPool);
     if (characterPool.length === 0) {
       alert("Sorry, we need at least one group of characters to generate a password!");
     } else {
       for(var i = 0; i < passLength; i++) {
         generatedPassword = generatedPassword + characterPool[Math.floor(Math.random() * characterPool.length)];
       }
-      alert(generatedPassword);
       return generatedPassword;
     }
   }
@@ -65,7 +63,6 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-  alert("Your password is : " + password);
 }
 
 // Add event listener to generate button
