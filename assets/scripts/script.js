@@ -17,8 +17,6 @@ function checkLength() {
       return false;
     } else {
       passLength = Number(passLength);
-      // alert(passLength);
-      // alert(typeof(passLength));
       if (!Number.isInteger(passLength)) {
         alert("Please enter a whole number (no decimals!) between 8 and 128.")
       } else if (passLength < 8 || passLength > 128) {
