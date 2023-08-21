@@ -13,7 +13,7 @@ A simple web-based password generator with customized options for length and typ
 
 ## Installation
 
-No installation is necessary for this application. A live page can be accessed at <https://kristbg.github.io/cbg-mod03-password-generator/>.
+No installation is necessary for this application. A live page can be accessed at <https://kristbg.github.io/2023-07-27-password-generator/>.
 
 ## How can I Contribute?
 
